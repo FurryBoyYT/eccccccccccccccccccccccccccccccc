@@ -616,6 +616,7 @@
 	--si-color-equicordupdater: var(--si-color);
 	--si-color-equicordcloud: var(--si-color);
 	--si-color-equicordsettingssync: var(--si-color);
+	--si-color-equicordspatchhelper: var(--si-color);
 	--si-color-vesktop: var(--si-color);
 	--si-color-activity-privacy: var(--si-color);
 	--si-color-game-activity: var(--si-color);
@@ -1010,6 +1011,14 @@
 
 .sidebar__23e6b [data-tab-id=equicordsettingssync i].item_b3f026:before {
 	mask: var(--si-equicordsettingssync) center/contain no-repeat
+}
+
+.sidebar__23e6b [data-tab-id=equicordspatchhelper i].item_b3f026 {
+	--si-color: var(--si-color-equicordspatchhelper)
+}
+
+.sidebar__23e6b [data-tab-id=equicordspatchhelper i].item_b3f026:before {
+	mask: var(--si-equicordspatchhelper) center/contain no-repeat
 }
 
 .sidebar__23e6b [data-tab-id=vesktop i].item_b3f026 {
