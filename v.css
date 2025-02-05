@@ -254,6 +254,12 @@
 	initial-value: url(https://raw.githubusercontent.com/gold-me/DiscordIcons/master/Icons/SVG/Backup.svg)
 }
 
+@property --si-equicordpatchhelper {
+	syntax: "<url>";
+	inherits: true;
+	initial-value: url(https://raw.githubusercontent.com/FurryBoyYT/eccccccccccccccccccccccccccccccc/refs/heads/main/patchhelper.svg)
+}
+
 @property --si-vesktop {
 	syntax: "<url>";
 	inherits: true;
@@ -363,6 +369,12 @@
 }
 
 @property --si-profile-effects-preview-tool {
+	syntax: "<url>";
+	inherits: true;
+	initial-value: url(https://raw.githubusercontent.com/gold-me/DiscordIcons/master/Icons/SVG/Memory.svg)
+}
+
+@property --si-name-plate-tool {
 	syntax: "<url>";
 	inherits: true;
 	initial-value: url(https://raw.githubusercontent.com/gold-me/DiscordIcons/master/Icons/SVG/Memory.svg)
@@ -571,6 +583,7 @@
 	--si-textcomponent: var(--si-text-component);
 	--si-intltesting: var(--si-intl-testing);
 	--si-profileeffectspreviewtool: var(--si-profile-effects-preview-tool);
+	--si-nameplatetool: var(--si-name-plate-tool);
 	--si-websettingtreetool: var(--si-web-setting-tree-tool);
 	--si-guildtemplates: var(--si-guild_templates);
 	--si-vanityurl: var(--si-vanity_url);
@@ -616,7 +629,7 @@
 	--si-color-equicordupdater: var(--si-color);
 	--si-color-equicordcloud: var(--si-color);
 	--si-color-equicordsettingssync: var(--si-color);
-	--si-color-equicordspatchhelper: var(--si-color);
+	--si-color-equicordpatchhelper: var(--si-color);
 	--si-color-vesktop: var(--si-color);
 	--si-color-activity-privacy: var(--si-color);
 	--si-color-game-activity: var(--si-color);
@@ -636,6 +649,7 @@
 	--si-color-text-component: var(--si-color);
 	--si-color-intl-testing: var(--si-color);
 	--si-color-profile-effects-preview-tool: var(--si-color);
+	--si-color-name-plate-tool: var(--si-color);
 	--si-color-web-setting-tree-tool: var(--si-color);
 	--si-color-logout: var(--si-color);
 	--si-color-overview: var(--si-color);
@@ -1013,12 +1027,12 @@
 	mask: var(--si-equicordsettingssync) center/contain no-repeat
 }
 
-.sidebar__23e6b [data-tab-id=equicordspatchhelper i].item_b3f026 {
-	--si-color: var(--si-color-equicordspatchhelper)
+.sidebar__23e6b [data-tab-id=equicordpatchhelper i].item_b3f026 {
+	--si-color: var(--si-color-equicordpatchhelper)
 }
 
-.sidebar__23e6b [data-tab-id=equicordspatchhelper i].item_b3f026:before {
-	mask: var(--si-equicordspatchhelper) center/contain no-repeat
+.sidebar__23e6b [data-tab-id=equicordpatchhelper i].item_b3f026:before {
+	mask: var(--si-equicordpatchhelper) center/contain no-repeat
 }
 
 .sidebar__23e6b [data-tab-id=vesktop i].item_b3f026 {
@@ -1171,6 +1185,14 @@
 
 .sidebar__23e6b [data-tab-id="profile effects preview tool" i].item_b3f026:before {
 	mask: var(--si-profile-effects-preview-tool) center/contain no-repeat
+}
+
+.sidebar__23e6b [data-tab-id="name plate tool" i].item_b3f026 {
+	--si-color: var(--si-color-name-plate-tool)
+}
+
+.sidebar__23e6b [data-tab-id="name plate tool" i].item_b3f026:before {
+	mask: var(--si-name-plate-tool) center/contain no-repeat
 }
 
 .sidebar__23e6b [data-tab-id="web setting tree tool" i].item_b3f026 {
